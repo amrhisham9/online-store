@@ -26,9 +26,9 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className='col-md-3 icons-padd'>
-                        <i class="fab fa-facebook-square fa-lg icon"></i>
-                        <i class="fab fa-twitter-square fa-lg icon"></i>
-                        <i class="fab fa-instagram-square fa-lg icon"></i>
+                        <i className="fab fa-facebook-square fa-lg icon"></i>
+                        <i className="fab fa-twitter-square fa-lg icon"></i>
+                        <i className="fab fa-instagram-square fa-lg icon"></i>
                    </div>
                </div>
                 <p className='copyright-p'>©Copyright 2020, Amr Hisham.</p>
