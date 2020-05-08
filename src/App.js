@@ -11,6 +11,7 @@ import Default from './components/Default'
 import Home from './components/Home'
 import Modal from './components/Modal'
 
+
 class App extends Component {
   render(){
   return (
@@ -20,8 +21,8 @@ class App extends Component {
       <Navbar />
       
       <Switch>
-        {/* <Route exact path='/' component={Home} /> */}
-        <Route exact path='/' component={ProductList} />
+         <Route exact path='/' component={Home} /> 
+        <Route path='/products' component={ProductList} />
         <Route path='/details' component={Details} />
         <Route path='/cart' component={Cart} />
         <Route component={Default} />

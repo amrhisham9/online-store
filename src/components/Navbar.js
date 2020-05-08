@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import logo from '../logo.svg'
+import logo from '../orderinologo.png'
 import styled from 'styled-components'
 import {ButtonContainer} from './Button'
 //import '../App.css'
@@ -19,13 +19,13 @@ export default class Navbar extends Component {
             </Link>
             <ul className='navbar-nav align-items-center'>
                 <li className='nav-item ml-5'>
-                    <Link to='/' className='nav-link'>
+                    <Link to='/products' className='nav-link '>
                         Products
                     </Link>
                 </li>
             </ul>
             <Link to='/cart' className='ml-auto'>
-                <ButtonContainer>
+                <ButtonContainer cart>
                     <span className='mr-2'>
                        <i className="fas fa-cart-plus" />  
                     </span>
@@ -40,6 +40,8 @@ export default class Navbar extends Component {
 
 const NavWrapper = styled.nav`
     background: var(--mainBlue);
+    padding-top: 25px;
+    padding-bottom: 25px;
     .nav-link {
         color: var(--mainWhite) !important;
         font-size: 1.3rem;
