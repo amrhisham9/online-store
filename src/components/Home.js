@@ -43,8 +43,8 @@ export default function Home() {
             <div className='row' id="r3">
                 <div className='col-md-6 '>
                     <h2 className='sec-h22 paddd'>Easy To Use</h2>
-                    <p className='sec-p paddd'>All you have to do is put your products in your cart, pay using PayPal, recieve your order as soon as possible.</p>
-                    <p className='sec-pp paddd'>Just 3 Clicks!</p>
+                    <p className='sec-p paddd'>All you have to do is to put your products in your cart, pay using PayPal, recieve your order as soon as possible.</p>
+                    <p className='sec-pp paddd'>Just 3 Steps!</p>
                 </div>
                 <div className='col-md-6 '>
                     <img src={easy} alt='secure' className='security-img' />
