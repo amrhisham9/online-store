@@ -86,7 +86,7 @@ body{
 }
 .security-img{
   width: 100%;
-  padding-top: 25px;
+  padding-top: 32px;
 }
 .c2{
   padding: 10% 12%;
@@ -127,6 +127,7 @@ body{
 }
 .fast-img{
   width: 100%;
+  padding-top: 10px;
 }
 .fast-h2{
   color: var(--mainYellow) !important;
