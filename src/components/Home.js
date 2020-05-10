@@ -21,7 +21,7 @@ export default function Home() {
             </div>
         </div>
         
-        <div className='container c2'>
+        <div className='container-fluid c2'>
             <div className='row row-padd' id="r1">
                 <div className='col-md-6 '>
                     <h2 className='sec-h2 paddd'>Secured Personal Data</h2>

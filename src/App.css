@@ -11,8 +11,10 @@
   height: 65vh;
 }
 html{
-  overflow-x: hidden;
   scroll-behavior: smooth;
+}
+.over-hid{
+  overflow-x: hidden;
 }
 body{
   font-family: "Oswald", sans-serif !important;

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {ProductConsumer} from '../context'
 import {Link} from 'react-router-dom'
 import {ButtonContainer} from './Button'
+import Footer from './Footer'
 
 export default class Details extends Component {
     render() {
@@ -10,6 +11,7 @@ export default class Details extends Component {
                 {(value) => {
                     const {id, company, img, info, price, title, inCart} = value.detailProduct;
                     return (
+                        <React.Fragment>
                         <div className='container py-5'>
                             {/* title */}
                             <div className='row'>
@@ -41,7 +43,7 @@ export default class Details extends Component {
                                     <p className='text-muted lead'>{info}</p>
                                     {/* buttons */}
                                     <div>
-                                       <Link to='/'>
+                                       <Link to='/products'>
                                            <ButtonContainer>
                                                back to products
                                            </ButtonContainer>
@@ -57,6 +59,8 @@ export default class Details extends Component {
                             </div>
 
                         </div>
+                        <Footer />
+                        </React.Fragment>
                     )
                 }}
             </ProductConsumer>
